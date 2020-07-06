@@ -9,7 +9,7 @@ spec:
     matchLabels:
       app: modresort-app
       tier: frontend
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
