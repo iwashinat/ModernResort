@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: modresort-ingress
+  labels:
+    app: modresort-app
+spec:
+  rules: 
+  - host: eksingress.com
+    http:
+      paths:
+        - path: /
+        backend:
+          serviceName: modresort-service
+          servicePort: 9080
