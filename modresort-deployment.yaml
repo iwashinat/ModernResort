@@ -9,7 +9,7 @@ spec:
     matchLabels:
       app: modresort-app
       tier: frontend
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -31,5 +31,3 @@ spec:
             value: info
           - name: WLP_LOGGING_CONSOLE_SOURCE
             value: message,trace,accessLog,ffdc
-
-
