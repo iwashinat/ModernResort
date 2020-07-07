@@ -13,6 +13,6 @@ spec:
   - http:
       paths:
       - backend:
-          serviceName: modresort
+          serviceName: modresort-service
           servicePort: 9080
         path: /
