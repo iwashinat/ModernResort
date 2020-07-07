@@ -2,6 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: modresort-ingress
+  namespace: ingress-basic
   labels:
     app: modresort-app
 spec:
