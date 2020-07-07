@@ -9,7 +9,7 @@ spec:
   rules: 
   - http:
       paths:
-      - path: /modresort
-        backend:
+      - backend:
           serviceName: modresort-service
           servicePort: 9080
+        path: /modresort
