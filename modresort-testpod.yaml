@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: test-pod
   labels:
-    app: modresort
+    app: modresort-app
 spec:
   containers:
   - name: testpod
