@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: test-pod
+  labels:
+    app: modresort-app
+spec:
+  containers:
+  - name: testpod
+    image: websphere-liberty:20.0.0.7-kernel-java8-ibmjava
