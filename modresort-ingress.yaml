@@ -10,8 +10,7 @@ metadata:
     app: modresort-app
 spec:
   rules: 
-    - host: aks.mcmdemo.com 
-      http:
+    - http:
         paths:
           - path: /
             backend:
