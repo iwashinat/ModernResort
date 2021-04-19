@@ -9,10 +9,11 @@ metadata:
   labels:
     app: modresort-app
 spec:
-  rules: 
-    - http:
+  rules:
+    - host: modresorts.10.0.0.2.nip.io
+      http:
         paths:
-          - path: /
+          - path: /resorts
             backend:
               serviceName: modresort-service
               servicePort: 9080
