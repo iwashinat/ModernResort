@@ -10,7 +10,7 @@ metadata:
     app: modresort-app
 spec:
   rules:
-    - host: modresorts.10.0.0.2.nip.io
+    - host: modresort.10.0.0.2.nip.io
       http:
         paths:
           - path: /resorts
