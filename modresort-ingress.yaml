@@ -10,8 +10,7 @@ metadata:
     app: modresort-app
 spec:
   rules:
-    - host: modresort.ocp02-1303bf06b541565e09085cf582022ff2-0000.jp-tok.containers.appdomain.cloud
-      http:
+    - http:
         paths:
           - path: /
             backend:
